@@ -1,0 +1,29 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Agent runtime data
+.claude/
+.codex/
